@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+   <link rel="stylesheet" href="snake.css">
+   <title>Snake</title>
+</head>
+
+<body>
+   <div class='snake'>
+      <div class='snake__board'>
+         <canvas id='board' width='400px' height='400'></canvas>
+         <div class='snake__score'>Score:</div>
+         <div class='snake__close'><i class="far fa-times-circle"></i></div>
+      </div>
+      <div class='snake__menu'>
+         <form class='snake__speed-menu'>
+            <input id='speed-5' class='snake__speed-input' type='radio' value='5' name='speed' checked>
+            <label class='snake__speed-label speed__checked' for='speed-5'>Easy</label>
+            <input id='speed-10' class="snake__speed-input" type='radio' value='10' name='speed'>
+            <label class="snake__speed-label" for='speed-10'>Middle</label>
+            <input id='speed-15' class="snake__speed-input" type='radio' value='15' name='speed'>
+            <label class='snake__speed-label' for='speed-15'>Hard</label>
+         </form>
+         <div class='snake__start-menu'>
+            <button class='snake__start' type='submit'>Start</button>
+         </div>
+      </div>
+   </div>
+
+</body>
+<script src='snake.js'></script>
+
+</html>

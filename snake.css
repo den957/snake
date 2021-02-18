@@ -1,0 +1,116 @@
+.snake {
+   width:100%;
+   height:100%;
+}
+.snake__board {
+   display: none;
+   position: relative;
+   width:500px;
+   border:1px solid black;
+   position: relative;
+   left:50%;bottom:0;
+   margin-left: -250px;
+}
+#board {
+   width: 500px;
+   height: 500px;
+   border: 1px solid black;
+}
+.snake__board:hover .snake__close{
+   display: block;
+}
+.snake__board:hover .snake__paused{
+   display: block;
+}
+.snake__score {
+   position: absolute;
+   top:0.8em;left:0.4em;
+   color:white;
+   font-weight: 700;
+}
+.snake__close {
+   display: none;
+   position: absolute;
+   top:0.2em;right:0.2em;
+   color:white;
+   font-size: 2em;
+}
+.snake__close:hover {
+   color:#a99e9e;
+   cursor: pointer;
+}
+.snake__return {
+   display: none;
+   width:6em;
+   height:1em;
+   font-size: 2em;
+   position:absolute;
+   top:50%;left:50%;
+   margin-top: -0.5em;
+   margin-left: -3em;
+   color:white;
+   font-weight: 700;
+}
+.snake__return:hover {
+  color:#a99e9e;
+  cursor: pointer;
+}
+.snake__menu {
+   position: relative;
+   left:50%;bottom:0;
+   width:500px;
+   height:500px;
+   background-image: url('images/snake.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: -250px;
+
+
+   
+}
+.snake__speed-menu {
+   width:7em;height:5em;
+   text-align: center;
+   position: relative;
+   top:78%;
+   left:49%;
+   margin-left: -3.5em;
+}
+.snake__speed-label {
+   border:0.2em solid white;
+   display: block;
+   padding:0.2em 0em;
+   border-radius:0.2em;
+   width:8em;
+   background-color: #93f52b;
+   color:white;
+   margin-bottom: 0.3em;
+   font-weight: 700;
+}
+.speed__checked {
+   background-color:#024408;
+}
+.snake__speed-input {
+   display: none;
+}
+.snake__start-menu {
+   width:7em;height:5em;
+   position: relative;
+   top:35%;
+   left:42%;
+   margin-left: -3.5em;
+}
+.snake__start {
+   border:0.3em solid white;
+   display: block;
+   padding:1em 6em;
+   border-radius:0.2em;
+   background-color: #93f52b;
+   color:white;
+   font-weight: 700;
+}
+.snake__start:hover {
+   border:0.3em solid white;
+   background-color:#024408;
+}
