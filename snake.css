@@ -5,15 +5,14 @@
 .snake__board {
    display: none;
    position: relative;
-   width:500px;
-   border:1px solid black;
+   width:31em;
    position: relative;
    left:50%;bottom:0;
-   margin-left: -250px;
+   margin-left: -15em;
 }
 #board {
-   width: 500px;
-   height: 500px;
+   width: 31em;
+   height: 31em;
    border: 1px solid black;
 }
 .snake__board:hover .snake__close{
@@ -58,13 +57,13 @@
 .snake__menu {
    position: relative;
    left:50%;bottom:0;
-   width:500px;
-   height:500px;
+   width:31em;
+   height:31em;
    background-image: url('images/snake.png');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   margin-left: -250px;
+   margin-left: -15em;
 
 
    
