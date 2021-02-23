@@ -170,13 +170,7 @@ let startGame = (speedGame) => {
    }
    let interval = setInterval(updateGame, 1000 / speedGame)
    close.addEventListener('click', () => {
-      clearInterval(interval)
-      ctx.clearRect(0, 0, 400, 400)
-      menu.style.display = 'block'
-      board.style.display = 'none'
-      speed[0].checked = true
-      checkActiveClass()
-      scoreBoard.innerHTML = `Score:`
+      window.location.reload()
    })
 }
 
