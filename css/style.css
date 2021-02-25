@@ -58,7 +58,7 @@
    left:50%;bottom:0;
    width:31em;
    height:31em;
-   background-image: url('images/snake.png');
+   background-image: url('../images/snake.png');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
